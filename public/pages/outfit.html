@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Your School and Color Palette</title>
+  <link rel="stylesheet" href="css/outfit.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+
+  <h1>Choose Your School and Color Palette</h1>
+
+  <!-- Dropdown for Major -->
+  <label for="School">Choose Your School:</label>
+  <select id="School">
+    <option value="">Select School</option>
+    <option value="School of Natural Sciences and Mathematics">School of Natural Sciences and Mathematics</option>
+    <option value="School of Humanities and Social Sciences">School of Humanities and Social Sciences</option>
+    <option value="School Of Business">School of Business</option>
+    <option value="School of Education">School of Education</option>
+  </select>
+
+  <!-- Dropdown for Color Palette -->
+  <label for="colorPalette">Choose Color Palette:</label>
+  <select id="colorPalette">
+    <option value="">Select Color Palette</option>
+    <option value="cool">Cool (Blues, Greens)</option>
+    <option value="neutral">Neutral (Blacks, Whites, Grays)</option>
+    <option value="vibrant">Vibrant (Bright and Bold)</option>
+  </select>
+
+  <!-- Button to Submit -->
+  <button onclick="displayImages()">Submit</button>
+
+  <!-- Output Section to Display Selections -->
+  <div class="image-container" id="imageContainer"></div>
+
+
+
+   
+
+
+
+
+</body>
+</html>
